@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
 
 p {
@@ -21,6 +20,8 @@ a{
 body{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -908,18 +909,292 @@ body{
 
 
 
+
+
+
+
+
+.receta-titel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.receta-titel h2{
+  color:#748a9d;
+}
+
+.receta-titel i{
+  font-size: 20px;
+}
+
+.caja-precio-receta{
+  display: flex;
+  justify-content: space-around;
+  background: #f0f4f8;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+
+.caja-precio-receta button{
+  border: none;
+  color: #748a9d;
+  background: none;
+}
+
+.boton-movil-big{
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.boton-redondeado{
+  font-weight: 800;
+}
+
+.movil-big{
+  width: 100%;
+  padding: 20px 0;
+}
+
+
+
+
+
+
 .pie-table-movil2{
   position: fixed;
   width: 375px;
   padding: 0;
-  padding-right: 20px;
   bottom: 0;
   background: #ffffff;
 }
 
 .caja-pie{
   height: 10%;
+  display: flex;
+  justify-content: center;
 }
+
+
+
+.descripcion-movil h5{
+    color: #7bed8d;
+
+}
+
+.descripcion-movil{
+  margin-bottom: 40px;
+}
+
+.receta-color{
+  color: #7bed8d;
+}
+
+.receta-item{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.frutas-titel-movil{
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  color: #748a9d;
+}
+
+.frutas-titel-movil button{
+  background: none;
+  color: #748a9d;
+  border: none;
+}
+
+.frutas-titel-movil a{
+  color: #7bed8d;
+}
+
+.caja-veg{
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 20px 20px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  border-radius: 50px;
+}
+
+
+.caja-veg button{
+  border: none;
+  color: #748a9d;
+  background: none;
+}
+
+.caja-veg .activo-iconos {
+  background: #7bed8d;
+  height: 50px;
+  width: 70px;
+  color: #ffffff;
+  border-radius: 100px;
+  font-weight: 800;
+}
+
+.caja-pie2{
+  margin-top: 30px;
+}
+
+
+
+
+
+
+.cart-caja{
+  padding: 80px 0 20px 0;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 20px 20px 1px rgba(0, 0, 0, 0.2);
+  color: #748a9d;
+}
+
+.caja-veg-editar-big{
+
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+.caja-veg-editar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0f4f8;
+  padding: 10px 15px;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+.item-editar{
+  display: flex;
+  align-items: center;
+}
+
+.item-editar p{
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.item-botones{
+  position: absolute;
+  right: 0;
+}
+
+.item-botones button{ 
+  border: none;
+  background: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.editar i{
+  background:hsl(208, 60%, 83%) ;
+  padding: 22px 15px;
+  margin-right: -5px;
+}
+
+.eliminar i{
+  background: #a6bcd0;
+  padding: 22px 15px;
+  border-radius: 0 10px 10px 0;
+}
+
+.item-precio{
+  display: flex;
+}
+
+.item-precio span{
+  margin-right: 20px;
+}
+
+.precios-caja{
+  display: flex;
+  justify-content: space-between;
+}
+
+.precios-caja2 h5{
+  font-size: 30px;
+  color: #748a9d;
+}
+
+.precios-caja2 p{
+  font-size: 20px;
+}
+
+
+
+
+.title-delivery{
+  display: flex;
+  justify-content: space-between;
+}
+
+.caja-veg2{
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.delivery-item {
+  padding: 20px;
+}
+
+.delivery-input input{
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+.cart-caja2{
+  color: #748a9d;
+
+}
+
+.opciones-caja{
+  padding: 20px;
+}
+
+.opciones-caja a{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-targeta{
+  padding: 10px 50px;
+  border: none;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.caja-color{
+  height: 50px;  
+  width: 100px;
+  background: red;
+}
+
 
 
 
@@ -941,7 +1216,7 @@ body{
 .caja-tarjetas::-webkit-scrollbar,
 .caja-tags::-webkit-scrollbar,
 .tarjetas-detalles::-webkit-scrollbar {
-  height: 10px;
+  height: 4px;
   background-color: #f5f5f5;
 }
 
