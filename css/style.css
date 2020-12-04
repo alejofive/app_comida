@@ -248,6 +248,12 @@ body{
 
 .caja-instucciones {
   margin-top: 50px;
+
+}
+
+.caja-instucciones p{
+  margin-bottom: 20px;
+
 }
 
 .nutricion-text {
@@ -1179,6 +1185,10 @@ body{
   align-items: center;
 }
 
+.caja-tarjetas2{
+  padding: 10px 20px;
+}
+
 .item-targeta{
   padding: 10px 50px;
   border: none;
@@ -1188,13 +1198,116 @@ body{
   align-items: center;
 }
 
-
-.caja-color{
-  height: 50px;  
-  width: 100px;
-  background: red;
+.tarjeta2{
+  flex: 0 0 300px;
+  padding: 0;
 }
 
+
+
+
+.input-cupon{
+  width: 100%;
+}
+
+.input-cupon input{
+padding: 15px 10px;
+width: 100%;
+background: #f0f4f8;
+border: none;
+border-radius: 10px;
+}
+
+.input-cupon input ::placeholder{
+  color: #748a9d;
+}
+
+
+
+
+
+.preparacion-img{
+  width: 100%;
+}
+
+.preparacion-img img{
+  width: 100%;
+}
+
+.caja-ingredientes{
+  display: flex;
+  align-items: center;
+}
+
+.title-delivery a:hover{
+  color: #7bed8d;
+}
+
+.preparacion-movil{
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.pre-item-movil{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+.movil2{
+  position: relative;
+  height: calc(100vh - 180px);
+}
+
+.titulo-menu2{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.opciones-item-movil{
+  background: #f0f4f8;
+  padding: 20px 40px;
+  border-radius: 10px;
+  position: relative;
+  margin: 4px 0;
+}
+
+.opciones-item-movil i{
+  position: absolute;
+  top: 22px;
+  font-size: 20px;
+
+}
+
+.icono-movil-ajustes {
+  position: absolute;
+  right: 60px;
+  top: 0;
+  color: #748a9d;
+}
+.icono-movil-ajustes i{
+color: #748a9d;
+
+}
+
+.caja-modo-dark-movil{
+  background: #f0f4f8;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin: 4px 0;
+}
+
+.opciones-item-abajo{
+  width: 100%;
+}
 
 
 
