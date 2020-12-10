@@ -84,10 +84,22 @@ body{
   box-shadow: 0px 20px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
+.frutas-menu2{
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 .frutas-menu a {
   color: #a6bcd0;
   margin-right: 20px;
   font-size: 18px;
+}
+
+.frutas-menu2 a{
+  margin-right: 0px;
 }
 
 .frutas-menu .activo {
@@ -126,7 +138,7 @@ body{
 
 .boton-carro {
   background-color: #7bed8d;
-  padding: 10px 70px;
+  padding: 15px 70px;
   color: #ffffff;
 }
 
@@ -446,7 +458,7 @@ body{
 
 .pago-input-item i{
   position: absolute;
-  top: 30px;
+  top: 33px;
   left: 15px;
   color: #748a9d;
 }
@@ -841,7 +853,7 @@ body{
 
 
 .titel-boton{
-  font-size: 50px;
+  font-size: 30px;
   border: none;
   background: none;
   color: #748a9d;
@@ -883,7 +895,7 @@ body{
 .buscador-micro button{
   background: #7bed8d;
   color: #ffffff;
-  width: 25px;
+  width: 30px;
   height: 30px;
   border-radius: 100%;
 }
@@ -974,6 +986,7 @@ body{
   padding: 0;
   bottom: 0;
   background: #ffffff;
+  z-index: 3;
 }
 
 .caja-pie{
@@ -1148,6 +1161,11 @@ body{
 .title-delivery{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.title-delivery h4{
+  margin: 0;
 }
 
 .caja-veg2{
@@ -1159,7 +1177,7 @@ body{
 }
 
 .delivery-input input{
-  padding: 20px;
+  padding: 20px 20px 20px 35px;
 }
 
 
@@ -1175,7 +1193,7 @@ body{
 }
 
 .opciones-caja{
-  padding: 20px;
+  padding: 20px 10px 20px 10px;
 }
 
 .opciones-caja a{
@@ -1218,8 +1236,9 @@ border: none;
 border-radius: 10px;
 }
 
-.input-cupon input ::placeholder{
-  color: #748a9d;
+.input-cupon input::placeholder{
+  color: #a6bcd0;
+  font-size: 18px;
 }
 
 
@@ -1314,6 +1333,78 @@ color: #748a9d;
 
 
 
+
+
+.fondo-img{
+  background: url("../img/hero-photo.png");
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-position-y:-20px ;
+  position: relative;
+  z-index: 1;
+  overflow: auto;
+  border-radius: 0 0 40px 40px;
+}
+
+
+
+.caja-recipes-buscador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.recipes-buscador{
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+
+}
+
+.recipes-buscador button{
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.item-buscador h2{
+  color: #7bed8d;
+}
+
+.item-buscador p{
+  color: #ffffff;
+}
+
+.frutas-menu-receta{
+  margin-top:-30px;
+  position: relative;
+  z-index: 0;
+  padding: 40px 40px 20px 40px;
+  border-radius: 0 0 20px 20px;
+}
+
+.caja-img-receta img{
+    width: 100%;
+    border-radius: 0 0 15px 15px ;
+    position: relative;
+    z-index: 2;
+}
+
+.caja-text-receta{
+  padding: 30px 20px 20px 30px;
+  background: #f5f5f5;
+  border-radius: 0 0 10px 10px ;
+  margin-top: -12px;
+}
+
+.caja-text-receta h5{
+  color: #748a9d;
+}
 
 
 
